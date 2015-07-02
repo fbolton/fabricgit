@@ -34,6 +34,7 @@
            <from uri="twitter://search?type=polling&amp;delay=10&amp;keywords={{twitter.keywords}}
                       &amp;accessToken={{access.token}}&amp;accessTokenSecret={{access.token-secret}}&amp;consumerKey={{consumer.key}}&amp;consumerSecret={{consumer.secret}}"/>
             <log message=">>> ${body.user.screenName} tweeted: ${body.text}"/>
+            <log message=">>> First test of Fabric Git"/>
         </route>
     </camelContext>
 </blueprint>
